@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+}
+
+nav {
+    position: relative;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(64, 64, 219);
+    color: white;
+    font-size: 20px;
+    font-family: 'Calibri';
+    text-align: center;
+    display: inline-block;
+}
+
+.navbar-title {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 20px;
+}
+
+button {
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    font-family: 'Calibri';
+    font-size: 20px;
+    opacity: 1;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-family: 'Calibri';
+    font-size: 60px;
+}
+
+hr {
+    margin-top: -30px;
+    color: grey;
+    opacity: .1;
+    margin-bottom: 40px;
+}
+
+table {
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+.new-contact-container {
+    border: 1px solid rgb(180, 180, 180);
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Calibri';
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.new-contact-container-body {
+    padding-top: 20px;
+    clear: both;
+    padding: 20px;
+}
+
+.new-contact-container-header {
+    background-color: rgb(230, 230, 230);
+    font-size: 17px;
+    padding: 20px;
+}
+
+.new-contact-container-footer {
+    background-color: rgb(230, 230, 230);
+    font-size: 17px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    height: 30px;
+    width: 100%;
+}
+
+input, label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.createContactButton {
+    position: relative;
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    float: right;
+    margin-bottom: 20px;
+    opacity: 1;
+}
+
+tr:hover {
+    background-color: rgb(243, 243, 243);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.header-table {
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+td button, div button {
+    text-transform: uppercase;
+    height: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-width: 2px;
+    margin-left: 5px;
+    -webkit-transition: background-color .5s ease-in-out;
+    -moz-transition: background-color .5s ease-in-out;
+    -o-transition: background-color .5s ease-in-out;
+    transition: background-color .5s ease-in-out;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+.details-button {
+    color: blue;
+    border-color: blue;
+}
+
+.edit-button {
+    color: orange;
+    border-color: orange;
+}
+
+.delete-button {
+    color: red;
+    border-color: red;
+}
+
+.details-button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.edit-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: red;
+    color: white;
+}
+
+.details-labels {
+    display: inline;
+}
+
+p {
+    color: white;
+    background-color: rgb(64, 64, 219);
+    display: inline;
+    padding: 4px;
+    border-radius: 4px;
+}
